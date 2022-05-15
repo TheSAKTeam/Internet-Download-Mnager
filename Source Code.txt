@@ -1,0 +1,26 @@
+@echo off
+color 0a
+title  Internet Download Manager
+set == version 1.1 Beta
+:start
+cls
+echo                           Internet Download Manager
+echo                ----------------------------------------------------
+echo                Enter The Link That You Want to Download Files From:
+echo                ----------------------------------------------------
+echo                             made by @The sas team
+echo =
+echo                                                           V1.1 Beta                                     
+set /p do=
+start "" "%do%"
+echo                 -------------------------------------------------------
+echo                    #####        #######     #       #   ###########
+echo                    #    #      #       #    # #     #   #
+echo                    #     #     #       #    #  #    #   #
+echo                    #      #    #       #    #   #   #   ######
+echo                    #     #     #       #    #    #  #   #
+echo                    #    #      #       #    #     # #   #
+echo                    # # #        #######     #      ##   ###########
+echo                 -------------------------------------------------------
+pause
+
